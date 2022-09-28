@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>
+            Video Tugas PemWeb
+        </title>
+    </head> 
+<body> 
+    <div style="text-align:center"> 
+    <h1>Traveloka</h1>
+
+<video id="video.mp4" width="500" controls = "true" poster = "bg_video.jpg" muted>
+  <source src="video.mp4" type="video/webm">
+  
+</video><br>
+
+
+<button onclick="enableLoop()" type="button">Enable loop</button>
+<button onclick="disableLoop()" type="button">Disable loop</button>
+<button onclick="checkLoop()" type="button">Check loop status</button>
+
+<script>
+var x = document.getElementById("video.mp4");
+
+function enableLoop() { 
+  x.loop = true;
+  x.load();
+} 
+
+function disableLoop() { 
+  x.loop = false;
+  x.load();
+} 
+
+function checkLoop() { 
+  alert(x.loop);
+} 
+</script> 
+</div>
+
+</body> 
+</html>
