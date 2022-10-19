@@ -1,0 +1,40 @@
+*.html,body
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans'; 
+}
+
+h1 {
+    text-align: center;
+}
+
+
+header
+{
+    background: #696952;
+    color: #628E90;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fungtions
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Times New Roman';
+    font-size:18px;
+}
+
+.picture
+{
+    margin-left:30px;
+}
+
+

@@ -1,0 +1,258 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI',sans-serif;
+    background-image: url(gambar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: impact;
+    color: #00ABB3;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FDFDBD;
+    z-index: 1;
+    border-bottom: 1px solid #00ABB3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white ;
+    border-radius: 25px;
+    border: 2px solid gray;
+    padding: 20px;
+    width: 1050px;
+    height: 15x;
+    font-size: larger;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial Narow';
+    color: #00ABB3;
+    line-height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+a.tbl-biru {
+    background: #256D85;
+    border-radius: 95px;
+    margin-top: 45px;
+    padding: 13px 20px 13px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #DD5353;
+    text-decoration: none;
+}
+
+a.tbl-merah {
+    background: #DD5353;
+    border-radius: 95px;
+    margin-top: 45px;
+    padding: 10px 20px 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: #256D85;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+*.html,body
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans'; 
+}
+
+h1 {
+    text-align: center;
+}
+
+
+header
+{
+    background: #696952;
+    color: #628E90;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fungtions
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Times New Roman';
+    font-size:18px;
+}
+
+.picture
+{
+    margin-left:30px;
+}
+
+.card-profile img {
+    width: 75%;
+    border-radius: 25%;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+#contact {
+    background: #D8D9CF;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Lucida Sans';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #256D85;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #B2B2B2;
+    
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+    }
+
+}
