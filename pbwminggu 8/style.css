@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding:30px;
+    text-align: center;
+    border : 1px solid green;
+    background-color: #e5e5e5
+}
+
+nav {
+    float : left;
+    width : 20%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color : #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+    color : #7777
+}
+   
+
+article {
+    float : left;
+    width: 80%;
+    border: 1px solid green;
+    background-color: #e5e5e5;
+}
+
+footer {
+    background-color: #7777;
+
+}
+
+.satu {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+}
+
+.dua {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4569;
+}
